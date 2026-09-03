@@ -321,7 +321,7 @@
         <div class="max-w-xl w-full text-center py-10 flex-grow flex flex-col justify-center">
             <div class="mb-4 animate__animated animate__fadeInDown">
                 <h1 class="text-7xl font-bold-game tracking-wider choco-title uppercase">Footprints</h1>
-                <p class="text-3xl font-game choco-subtitle mt-2 uppercase tracking-widest">FIRST GRADE UNIT 16</p>
+                <p class="text-3xl font-game choco-subtitle mt-2 uppercase tracking-widest">FIRST GRADE UNIT 17</p>
                 <p class="text-lg font-game opacity-50 mt-1 uppercase text-orange-200/70">Academy Adventure</p>
             </div>
             
@@ -1032,7 +1032,7 @@
         function saveResultsToExcel(scorePercentage) {
             const data = {
                 name: state.studentName,
-                grade: "1ST UNIT 16",
+                grade: "1ST UNIT 17",
                 testResult: scorePercentage + "%",
                 date: new Date().toLocaleString()
             };
@@ -1163,7 +1163,7 @@
             
             doc.setFont("helvetica", "bold");
             doc.setTextColor(15, 23, 42);
-            doc.text("FIRST GRADE • UNIT 16 ACADEMY CHALLENGE", w/2, 92, { align: 'center' });
+            doc.text("FIRST GRADE • UNIT 17 ACADEMY CHALLENGE", w/2, 92, { align: 'center' });
             
             doc.setFillColor(239, 246, 255); 
             doc.roundedRect(15, 101, w - 30, 34, 4, 4, 'F');
